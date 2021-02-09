@@ -1,0 +1,9 @@
+
+{
+  "properties": [
+    {
+      "name": "dialect.MySQL5InnoDBDialect",
+      "type": "java.lang.String",
+      "description": "Description for dialect.MySQL5InnoDBDialect."
+  }
+] }

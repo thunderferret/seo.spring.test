@@ -24,14 +24,14 @@ sourceCompatibility = 1.8
 
 repositories{
     mavenCentral()
+    jcenter()
 }
 
 
 dependencies {
+    implementation 'junit:junit:4.13.1'
     compile 'org.springframework.boot:spring-boot-starter-web'
     testCompile 'org.springframework.boot:spring-boot-starter-test'
-    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.6.0'
-    testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine'
 
 }
 
